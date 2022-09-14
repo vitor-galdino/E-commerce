@@ -136,7 +136,7 @@ img {
     width: 14px;
     height: 14px;
     background-color: #1f1f1fd9;
-    background-image: url(/assets/img/sun.png);
+    background-image: url(/img/sun.png);
     background-size: cover;
     left: 4px;
     bottom: 2px;
@@ -150,7 +150,7 @@ img {
 }
 
 .switcher input:checked+.switch-button::before {
-    background-image: url(/assets/img/moon.png);
+    background-image: url(/img/moon.png);
     background-size: cover;
     border: 2px solid #ffffffbb;
     background-color: #F5F5F5;
@@ -552,7 +552,7 @@ img {
 .payment button:focus {
     width: 35%;
     border-radius: 40px;
-    background-image: url(/assets/img/payment.png), linear-gradient(90deg, rgb(0, 209, 164) 0%, rgb(0, 209, 164) 100%);
+    background-image: url(/img/payment.png), linear-gradient(90deg, rgb(0, 209, 164) 0%, rgb(0, 209, 164) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

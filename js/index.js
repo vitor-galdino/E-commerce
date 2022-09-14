@@ -189,13 +189,13 @@ function popUpWarning(bool, warning) {
     const divPopUp = document.querySelector(".pop-up");
 
     if (bool) {
-        divPopUp.innerHTML = `<span><img draggable="false" src="assets/img/check.png">${warning}</span>`;
+        divPopUp.innerHTML = `<span><img draggable="false" src="./img/check.png">${warning}</span>`;
         animation(".pop-up", 70, "y");
         setTimeout(function () {
             animation(".pop-up", -40, "y");
         }, 700)
     } else {
-        divPopUp.innerHTML = `<span><img draggable="false" src="assets/img/error.png">${warning}</span>`;
+        divPopUp.innerHTML = `<span><img draggable="false" src="./img/error.png">${warning}</span>`;
         animation(".pop-up", 70, "y");
         setTimeout(function () {
             animation(".pop-up", -40, "y");
